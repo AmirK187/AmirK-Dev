@@ -1,0 +1,21 @@
+.s1 {
+  background: url(./images/photo-1.jpeg);
+  background-size: cover;
+}
+
+.s1 h1 {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.s2 {
+  background: url(./images/photo-2.jpeg);
+  background-size: cover;
+}
+
+.s4 {
+  background: url(./images/photo-3.jpeg);
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */
