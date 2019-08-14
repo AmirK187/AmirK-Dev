@@ -1,21 +1,99 @@
+/* Color Theme Swatches in Hex */
 .s1 {
   background: url(./images/photo-1.jpeg);
   background-size: cover;
+  /*ul{
+        display: flex;
+        justify-content: space-evenly;
+        font-family: monospace, 'sans-serif';
+        
+    }li{
+        list-style: none;
+        text-decoration: none;
+    } li a{
+        color: black;
+        font-size: 25px;
+        padding: 10px;
+        border: #F2913D 2px solid;
+        border-radius: 15px;
+        opacity: 0.55;
+        transition: 800ms;
+    }li a:hover{
+        background-color: #F2913D;
+        border: #592C52 1px solid;
+        opacity: 0.7;
+        transition: 1000ms;
+    }*/
 }
 
 .s1 h1 {
-  margin: 0 auto;
-  padding: 0;
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  font-size: 100px;
+  text-decoration: line-through;
   text-align: center;
+  color: #592C52;
+  opacity: 0.7;
+}
+
+.s1 h4 {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 25px;
+  color: #592C52;
+  text-decoration: line-through;
+  margin: 0;
+  padding: 0;
+}
+
+.s1 p {
+  position: absolute;
+  top: 55%;
+  left: 400px;
+  color: #5a3626;
+  font-size: 40px;
 }
 
 .s2 {
-  background: url(./images/photo-2.jpeg);
+  background: #BF3B0B;
+  color: #C1C2D9;
   background-size: cover;
+}
+
+.s2 h2 {
+  font-size: 85px;
+  position: absolute;
+  top: 15px;
+  left: 550px;
+}
+
+.s2 p {
+  text-align: center;
+  font-size: 20px;
 }
 
 .s4 {
   background: url(./images/photo-3.jpeg);
   background-size: cover;
+}
+
+.fp-tooltip {
+  color: #592C52 !important;
+  font-family: monospace !important;
+  font-size: 20px !important;
+  opacity: 0.3 !important;
+}
+
+span {
+  height: 20px !important;
+  width: 20px !important;
+  background-color: rgba(241, 144, 88, 0.822) !important;
+  opacity: 0.3 !important;
+}
+
+.fp-tooltip:hover {
+  opacity: 0.8 !important;
 }
 /*# sourceMappingURL=main.css.map */
